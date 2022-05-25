@@ -46,6 +46,7 @@ html {
   line-height: 1.714;
   max-width: 730px;
   margin: 0 auto;
+  padding: 0px 10px;
 }
 .s_wrapper .s_grid-container {
   display: -webkit-box;
@@ -83,7 +84,7 @@ html {
   .s_wrapper .s_grid-container .s_item {
     width: 125px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 }
 @media (min-width: 26.5625em) {
@@ -91,7 +92,7 @@ html {
     width: 255px;
     padding: 20px;
     min-height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 }
 .s_wrapper .s_grid-container .s_item .s_item-image {
