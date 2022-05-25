@@ -17,7 +17,7 @@ html {
 
 .s_wrapper {
   margin: 0 auto;
-  width: 1140px;
+  width: 1240px;
 }
 .s_wrapper .s_page-header {
   text-align: center;
@@ -36,4 +36,86 @@ html {
   line-height: 1.714;
   max-width: 730px;
   margin: 0 auto;
+}
+.s_wrapper .s_grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0px;
+}
+.s_wrapper .s_grid-container .s_item {
+  background-color: #fff;
+  padding: 20px;
+  min-width: 255px;
+  min-height: 375px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+.s_wrapper .s_grid-container .s_item .s_item-title {
+  font-size: 14px;
+  font-family: "Roboto Regular";
+  color: #383838;
+  line-height: 1.143;
+  text-align: left;
+  z-index: 62;
+}
+.s_wrapper .s_grid-container .s_item .s_box-price {
+  margin: 40px 0px 10px 0px;
+  text-align: left;
+}
+.s_wrapper .s_grid-container .s_item .s_box-price .old-price {
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto Regular";
+  color: #989898;
+  line-height: 1.167;
+}
+.s_wrapper .s_grid-container .s_item .s_box-price .normal-price {
+  font-size: 24px;
+  font-family: "Roboto Bold";
+  color: #000;
+}
+.s_wrapper .s_grid-container .s_item .s_more {
+  display: block;
+  padding: 10px 20PX;
+  border-radius: 30px;
+  background-color: #7abc49;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto Regular";
+  overflow: hidden;
+  position: relative;
+}
+.s_wrapper .s_grid-container .s_item .s_more:after {
+  content: "";
+  width: 20px;
+  height: 40px;
+  background-color: #fff;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+.s_wrapper .s_grid-container .s_item .s_more:hover:after {
+  left: 110%;
+}
+.s_wrapper .s_grid-container .s_item:hover {
+  -webkit-box-shadow: 6px 6px 11px -2px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 6px 11px -2px rgba(0, 0, 0, 0.21);
 }
