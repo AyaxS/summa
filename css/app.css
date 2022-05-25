@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body,
+html {
+  background-color: #eaeaea;
+}
+
+.s_wrapper {
+  margin: 0 auto;
+  width: 1140px;
+}
+.s_wrapper .s_page-header {
+  text-align: center;
+}
+.s_wrapper .s_page-header .s_title {
+  font-family: "Roboto Bold";
+  font-size: 36px;
+  line-height: 0.667;
+  color: #333333;
+  margin-top: 54px;
+}
+.s_wrapper .s_page-header .s_description {
+  font-size: 14px;
+  font-family: "Roboto Regular";
+  color: #333333;
+  line-height: 1.714;
+  max-width: 730px;
+  margin: 0 auto;
+}
